@@ -1,0 +1,54 @@
+QPushButton {
+    background-color: green;
+    color: white;
+    border: 1px solid #4CAF50;
+    padding: 5px 10px;
+    border-radius: 3px;
+    }
+QPushButton:hover {
+    background-color: #45A049;
+    }
+    QPushButton:disabled {
+    background-color: #DDDDDD; 
+    color: #888888;
+    border: 1px solid #CCCCCC;
+    
+}
+
+/* Styles for button1 */
+QPushButton#button1 {
+    background-color: green;
+    color: white;
+    border: 1px solid #4CAF50;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton#button1:hover {
+    background-color: #45A049;
+}
+
+QPushButton#button1:disabled {
+    background-color: #DDDDDD; 
+    color: #888888;
+    border: 1px solid #CCCCCC;
+}
+
+/* Styles for button2 */
+QPushButton#button2 {
+    background-color: red;
+    color: white;
+    border: 1px solid #D32F2F;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton#button2:hover {
+    background-color: #E57373;
+}
+
+QPushButton#button2:disabled {
+    background-color: #DDDDDD;
+    color: #888888;
+    border: 1px solid #CCCCCC;
+}
